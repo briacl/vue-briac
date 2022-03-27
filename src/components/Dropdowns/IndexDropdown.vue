@@ -101,7 +101,7 @@
       >
         Traiter les images
       </a>
-            <a
+      <a
         href="#diffuser"
         class="
           text-sm
@@ -117,7 +117,7 @@
       >
         Diffuser
       </a>
-                  <a
+      <a
         href="#timelapse"
         class="
           text-sm
