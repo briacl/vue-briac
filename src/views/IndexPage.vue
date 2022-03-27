@@ -75,7 +75,7 @@
                   focus:outline-none
                   mr-1
                   mb-1
-                  bg-white
+                  bg-slate-100
                   active:bg-sky-600
                   uppercase
                   text-sm
