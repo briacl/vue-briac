@@ -347,6 +347,111 @@
           </div>
         </div>
       </div>
+       <a id="urbain" />
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+            <div class="justify-center flex flex-wrap relative">
+              <div class="my-4 w-full lg:w-full px-4">
+                <div
+                  class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
+                >
+                  <img
+                    :src="require('@/assets/img/briac-th3-londres-101.jpg')"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-londres-101_faz140').toURL())"
+                    class="w-full rounded-lg"
+                  />
+                  <p class="text-sm text-slate-700 mt-4 font-semibold">
+                    perspective…
+                  </p>
+                </div>
+
+
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+            <div
+              class="
+                text-slate-500
+                p-3
+                text-center
+                inline-flex
+                items-center
+                justify-center
+                w-16
+                h-16
+                mb-6
+                shadow-lg
+                rounded-full
+                bg-white
+              "
+            >
+              <i class="fa-solid fa-bus text-xl"></i>
+            </div>
+            <h3 class="text-3xl mb-2 font-semibold leading-normal">
+              Images urbaines
+            </h3>
+            <p
+              class="
+                text-lg
+                font-light
+                leading-relaxed
+                mt-4
+                mb-4
+                text-slate-600
+              "
+            >
+              Au détour d'une rue la magie opère. Une perspective remarquable, juste un iPhone… C'est l'histoire de ce bus lors d'une belle journée de fin d'été à Londres.
+            </p>
+
+            <div class="block pb-6">
+              <span
+                class="
+                  text-xs
+                  font-semibold
+                  inline-block
+                  py-1
+                  px-2
+                  uppercase
+                  rounded-full
+                  text-slate-500
+                  bg-white
+                  uppercase
+                  last:mr-0
+                  mr-2
+                  mt-2
+                "
+              >
+                Urbanisme
+              </span>
+              <span
+                class="
+                  text-xs
+                  font-semibold
+                  inline-block
+                  py-1
+                  px-2
+                  uppercase
+                  rounded-full
+                  text-slate-500
+                  bg-white
+                  uppercase
+                  last:mr-0
+                  mr-2
+                  mt-2
+                "
+              >
+                Londres
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>     
       <a id="communiquer" />
       <div class="container mx-auto overflow-hidden pb-20">
         <div class="flex flex-wrap items-center">
