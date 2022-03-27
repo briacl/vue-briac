@@ -48,8 +48,8 @@
                   focus:outline-none
                   mr-1
                   mb-1
-                  bg-emerald-500
-                  active:bg-emerald-600
+                  bg-blue-500
+                  active:bg-blue-600
                   uppercase
                   text-sm
                   shadow
@@ -66,7 +66,7 @@
                 class="
                   github-star
                   ml-1
-                  text-emerald-500
+                  text-blue-500
                   font-bold
                   px-6
                   py-4
@@ -627,7 +627,7 @@
                 mb-6
                 shadow-lg
                 rounded-lg
-                bg-emerald-500
+                bg-blue-500
               "
             >
               <img
@@ -645,7 +645,7 @@
                 >
                   <polygon
                     points="-30,95 583,95 583,65"
-                    class="text-emerald-500 fill-current"
+                    class="text-blue-500 fill-current"
                   ></polygon>
                 </svg>
                 <h4 class="text-xl font-bold text-white">
@@ -1144,8 +1144,8 @@
                   focus:outline-none
                   mr-1
                   mb-2
-                  bg-emerald-500
-                  active:bg-emerald-600
+                  bg-blue-500
+                  active:bg-blue-600
                   uppercase
                   text-sm
                   shadow
@@ -1155,7 +1155,7 @@
                   duration-150
                 "
               >
-                Email
+                <i class="fa-solid fa-envelope"></i> Email
               </a>
               <a
                 href="https://github.com/briacl/vue-briac"
