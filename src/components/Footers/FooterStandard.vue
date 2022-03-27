@@ -28,26 +28,30 @@
           </h5>
           <div class="mt-6 lg:mb-0 mb-6">
             <button
-              class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="bg-white text-indigo-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
+              onclick="window.location.href='#top"
             >
               <i class="fab fa-discord"></i>
             </button>
             <button
-              class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
+              onclick="window.location.href='https://www.facebook.com/briac.lme.5'"
             >
               <i class="fab fa-facebook-square"></i>
             </button>
             <button
               class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
+              onclick="window.location.href='https://www.instagram.com/briaclme/'"
             >
               <i class="fab fa-instagram"></i>
             </button>
             <button
               class="bg-white text-slate-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
+              onclick="window.location.href='https://github.com/briacl'"
             >
               <i class="fab fa-github"></i>
             </button>
