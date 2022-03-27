@@ -1,0 +1,14 @@
+/* TEAM */
+	Creator: Briac LE MEILLAT
+	Contact: blemeill [at] briac.fr
+	From: Harnes, Pas-de-Calais, France
+
+/* THANKS */
+
+	Hosting: Github, Cloudflare
+
+/* SITE */
+	Language: French
+	Doctype:HTML5
+	IDE: Visual Studio Code
+    Frameworks: Vue3, TailwindCSS, CoreJS

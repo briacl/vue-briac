@@ -1,0 +1,66 @@
+{
+  "name": "vue-briac",
+  "homepage": "https://www.briac.cf",
+  "version": "1.1.0",
+  "description": "Vue Notus - A free Tailwind CSS and VueJS UI Kit and Admin by Creative Tim.",
+  "repository": "https://github.com/briacl/vue-briac",
+  "license": "GPLv3",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && gulp licenses",
+    "lint": "vue-cli-service lint",
+    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run serve"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free":"^6.1.1",
+    "@popperjs/core":"^2.11.4",
+    "@tailwindcss/forms":"^0.5.0",
+    "@tailwindcss/typography": "0.5.2",
+    "@vue/compiler-sfc":"^3.2.31",
+    "chart.js":"^3.7.1",
+    "core-js":"^3.21.1",
+    "gulp":"^4.0.2",
+    "gulp-append-prepend":"^1.0.9",
+    "tailwindcss":"^3.0.23",
+    "vue":"^3.2.31",
+    "vue-router": "4.0.14",
+    "basiclightbox":"^5.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/eslint-parser":"^7.17.0",
+    "@vue/cli-plugin-babel":"^5.0.4",
+    "@vue/cli-plugin-eslint":"^5.0.4",
+    "@vue/cli-service":"^5.0.4",
+    "autoprefixer":"^10.4.4",
+    "eslint":"^8.12.0",
+    "eslint-plugin-vue":"^8.5.0",
+    "postcss":"^8.4.12",
+    "vue-template-compiler": "2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
