@@ -95,8 +95,8 @@
 
       <div class="flex m-8 mt-20 md:mt-36">
         <img
-          :src="require('@/assets/img/briac-102.jpg')"
-          @click="lightBox(require('@/assets/img/briac-102.jpg'))"
+          :src="getCloudinaryImg('briac.cf/briac-102_d4ewcx',700).toURL()"
+          @click="lightBox(getCloudinaryImg('briac.cf/briac-102_d4ewcx').toURL())"
           class="rounded-lg shadow-lg"
         />
       </div>
@@ -133,7 +133,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-106.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-106.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-106_hbqbnk').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -145,7 +145,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-105.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-105.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-105_afrkfs').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -158,7 +158,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-104.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-104.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-104_snszyc').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -172,7 +172,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-103.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-103.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-103_h9af5a').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -185,7 +185,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-107.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-107.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-107_rkqwah').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -198,7 +198,7 @@
                 >
                   <img
                     :src="require('@/assets/img/briac-th2-108.jpg')"
-                    @click="lightBox(require('@/assets/img/briac-108.jpg'))"
+                    @click="lightBox(getCloudinaryImg('briac.cf/briac-108_syruh1').toURL())"
                     class="w-full rounded-lg"
                   />
                   <p class="text-sm text-slate-700 mt-4 font-semibold">
@@ -1227,7 +1227,15 @@
 <script>
 import IndexNavbar from "@/components/Navbars/IndexNavbar.vue";
 import FooterComponent from "@/components/Footers/FooterStandard.vue";
-
+const cloudinaryConf = {
+  cloud: {
+    cloudName: "briacl",
+  },
+};
+const cloudinary = new Cloudinary(cloudinaryConf);
+import { Cloudinary } from "@cloudinary/url-gen";
+import { quality } from "@cloudinary/url-gen/actions/delivery";
+import { fill } from "@cloudinary/url-gen/actions/resize";
 import * as basiclightbox from "basiclightbox";
 
 export default {
@@ -1243,6 +1251,22 @@ export default {
       basiclightbox
         .create(`<img src="${url}" />`)
         .show(() => console.log(`lightbox ${url} now visible`));
+    },
+    getCloudinaryImg: (img, width, height) => {     
+      let _img = cloudinary.image(img);
+      //debugger; //eslint-disable-line
+      console.log(_img);
+      if (width !== undefined || height !== undefined) {
+        let _fill = fill();
+        if (width !== undefined) {
+          _fill = _fill.width(width);
+        }
+        if (height !== undefined) {
+          _fill = _fill.height(height);
+        }
+        _img.resize(_fill);
+      }
+      return _img.delivery(quality("auto")).format('auto');
     },
   },
 };
