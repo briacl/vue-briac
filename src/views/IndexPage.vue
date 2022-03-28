@@ -30,7 +30,7 @@
                 target="_blank"
               >
                 Ma pratique c'est le
-                <span class="underline"> marcher-vol en parapente. </span>
+                <span class="underline"> marche-et-vol en parapente. </span>
               </a>
               J'ai envie de vous faire partager mes passions
             </p>
