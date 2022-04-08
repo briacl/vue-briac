@@ -612,7 +612,7 @@
               class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
             >
               <img
-                alt="..."
+                alt="Facebook Logo and Like"
                 :src="require('@/assets/img/facebook.png')"
                 class="
                   w-full
@@ -627,7 +627,7 @@
                 "
               />
               <img
-                alt="..."
+                alt="My Facebook"
                 :src="require('@/assets/img/briac-fb.jpg')"
                 @click="lightBox(require('@/assets/img/briac-fb.jpg'))"
                 class="
@@ -642,7 +642,7 @@
                 "
               />
               <img
-                alt="..."
+                alt="My Instagram"
                 :src="require('@/assets/img/briac-insta.jpg')"
                 @click="lightBox(require('@/assets/img/briac-insta.jpg'))"
                 class="
@@ -658,7 +658,7 @@
                 "
               />
               <img
-                alt="..."
+                alt="My Lightroom"
                 :src="require('@/assets/img/briac-lr.jpg')"
                 @click="lightBox(require('@/assets/img/briac-lr.jpg'))"
                 class="
@@ -673,7 +673,7 @@
                 "
               />
               <img
-                alt="..."
+                alt="Twitter Background"
                 :src="require('@/assets/img/twitter.png')"
                 @click="lightBox(require('@/assets/img/twitter.png'))"
                 class="
@@ -688,7 +688,7 @@
                 "
               />
               <img
-                alt="..."
+                alt="J'aime Logo"
                 :src="require('@/assets/img/jaime.svg')"
                 @click="lightBox(require('@/assets/img/jaime.svg'))"
                 class="
