@@ -736,7 +736,7 @@
               "
             >
               <img
-                alt="..."
+                alt="Macbook pro"
                 :src="require('@/assets/img/briac-th-101.jpg')"
                 class="w-full align-middle rounded-t-lg"
                 @click="lightBox(require('@/assets/img/briac-101.jpg'))"
