@@ -880,6 +880,54 @@
           </div>
         </div>
       </div>
+       <a id="diffuser" />
+      <div class="container mx-auto px-4 pb-32 pt-48">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/697009477"
+              width="640"
+              height="360"
+              frameborder="0"
+              allowfullscreen
+              class="max-w-full rounded-lg shadow-xl px-2 py-1 vimeog"
+            ></iframe>
+          </div>
+          <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
+            <div class="md:pr-12">
+              <div
+                class="
+                  text-slate-500
+                  p-3
+                  text-center
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-16
+                  h-16
+                  mb-6
+                  shadow-lg
+                  rounded-full
+                  bg-white
+                "
+              >
+                <i class="fa-solid fa-video text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-semibold">Vue aérienne</h3>
+              <p class="mt-4 text-lg leading-relaxed text-slate-500">
+                Les plans filmés avec la caméra à la main sont certes très pratiques,
+                car on peut filmer simplement avec son smartphone. Mais filmer avec
+                une technologie qui peut voler, comme le drone, donne encore plus de plaisir.
+                Ça rend la captation d’image assez merveilleuse, que ce soit à vivre
+                sur l’instant  ou en post-production. Voici d’ailleurs quelques images
+                de drones que j’ai faite lors de mon stage en entreprise. L’entreprise m’a
+                autorisé à faire voler un drone. J’en ai profité pour m’exercer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <a id="diffuser" />
       <div class="container mx-auto px-4 pb-0 pt-48">
         <div class="items-center flex flex-wrap">
