@@ -132,7 +132,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-106.jpg')"
+                    src="../assets/img/briac-th2-106.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-106_hbqbnk').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -144,7 +144,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-105.jpg')"
+                  src="../assets/img/briac-th2-105.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-105_afrkfs').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -157,7 +157,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-104.jpg')"
+                  src="../assets/img/briac-th2-104.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-104_snszyc').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -171,7 +171,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-103.jpg')"
+                  src="../assets/img/briac-th2-103.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-103_h9af5a').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -184,7 +184,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-107.jpg')"
+                  src="../assets/img/briac-th2-107.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-107_rkqwah').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -197,7 +197,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th2-108.jpg')"
+                  src="../assets/img/briac-th2-108.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-108_syruh1').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -357,7 +357,7 @@
                   class="bg-slate-200 shadow-lg rounded-lg text-center p-2 mt-8"
                 >
                   <img
-                    :src="require('@/assets/img/briac-th3-londres-101.jpg')"
+                    src="../assets/img/briac-th3-londres-101.jpg"
                     @click="lightBox(getCloudinaryImg('briac.cf/briac-londres-101_faz140').toURL())"
                     class="w-full rounded-lg"
                   />
@@ -613,7 +613,7 @@
             >
               <img
                 alt="Facebook Logo and Like"
-                :src="require('@/assets/img/facebook.png')"
+                src="../assets/img/facebook.png"
                 class="
                   w-full
                   align-middle
@@ -628,7 +628,7 @@
               />
               <img
                 alt="My Facebook"
-                :src="require('@/assets/img/briac-fb.jpg')"
+                src="../assets/img/briac-fb.jpg"
                 @click="lightBox(require('@/assets/img/briac-fb.jpg'))"
                 class="
                   w-full
@@ -643,7 +643,7 @@
               />
               <img
                 alt="My Instagram"
-                :src="require('@/assets/img/briac-insta.jpg')"
+                src="../assets/img/briac-insta.jpg"
                 @click="lightBox(require('@/assets/img/briac-insta.jpg'))"
                 class="
                   w-full
@@ -659,7 +659,7 @@
               />
               <img
                 alt="My Lightroom"
-                :src="require('@/assets/img/briac-lr.jpg')"
+                src="../assets/img/briac-lr.jpg"
                 @click="lightBox(require('@/assets/img/briac-lr.jpg'))"
                 class="
                   w-full
@@ -674,7 +674,7 @@
               />
               <img
                 alt="Twitter Background"
-                :src="require('@/assets/img/twitter.png')"
+                src="../assets/img/twitter.png"
                 @click="lightBox(require('@/assets/img/twitter.png'))"
                 class="
                   w-full
@@ -689,7 +689,7 @@
               />
               <img
                 alt="J'aime Logo"
-                :src="require('@/assets/img/jaime.svg')"
+                src="../assets/img/jaime.svg"
                 @click="lightBox(require('@/assets/img/jaime.svg'))"
                 class="
                   w-full
@@ -737,7 +737,7 @@
             >
               <img
                 alt="Macbook pro"
-                :src="require('@/assets/img/briac-th-101.jpg')"
+                src="../assets/img/briac-th-101.jpg"
                 class="w-full align-middle rounded-t-lg"
                 @click="lightBox(require('@/assets/img/briac-101.jpg'))"
               />
@@ -912,7 +912,7 @@
                   bg-white
                 "
               >
-                <i class="fa-solid fa-video text-xl"></i>
+                <i class="fat fa-drone text-xl"></i>
               </div>
               <h3 class="text-3xl font-semibold">Vue aérienne</h3>
               <p class="mt-4 text-lg leading-relaxed text-slate-500">
