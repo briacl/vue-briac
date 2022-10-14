@@ -1,6 +1,6 @@
 /*!
 =========================================================
-* © 2022 Ronan LE MEILLAT for Les Ailes du Mont-Blanc
+© Briac & friends
 =========================================================
 This website use:
 - Vite, Vue3, FontAwesome 6, TailwindCss 3
@@ -8,7 +8,7 @@ This website use:
 */
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import vitePluginFontawesomeminify from "./fontawesome";
+import vitePluginFontawesomeminify from "@highcanfly-club/fontawesome";
 import path from "path";
 
 export default defineConfig({
