@@ -22,7 +22,7 @@
               Briac<br />Images, Montagne et Parapente
             </h2>
             <p class="mt-4 text-lg leading-relaxed text-slate-500">
-              18 ans, je suis passionné par l'image et par la montagne.
+              19 ans, je suis passionné par l'image et par la montagne.
               <br />Depuis que j'en ai légalement le droit, je vole en solo.
               <a
                 href="https://highcanfly.club"
